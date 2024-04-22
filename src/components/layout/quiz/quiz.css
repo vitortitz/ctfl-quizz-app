@@ -38,6 +38,7 @@
       cursor: pointer;
       font-family: "Oswald";
       padding: 5px 5px 5px 5px;
+      color: white;
     }
 
     .container .points {
@@ -46,12 +47,14 @@
     }
 
     .container .correct {
-      background: #dffff2;
+      background: black;
       border-color: #00d397;
+      color: #00d397;
     }
     .container .wrong {
-      background: #ffebeb;
+      background: black;
       border-color: #ff4a4a;
+      color: #ff4a4a;
     }
 
     .container .buttonDiv {
@@ -175,7 +178,9 @@
 .container .correct {
   background: #dffff2;
   border-color: #00d397;
+  color: black;
 }
+
 .container .wrong {
   background: #ffebeb;
   border-color: #ff4a4a;
@@ -244,6 +249,7 @@
   .container .correct {
     background: #dffff2;
     border-color: #00d397;
+    color: #686868;
   }
   .container .wrong {
     background: #ffebeb;
