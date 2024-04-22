@@ -34,7 +34,9 @@ const navbar = () => {
               <a className="navbar-item" href="/quiz2">
                 Simulado 2
               </a>
-              <a className="navbar-item">Simulado 3</a>
+              <a className="navbar-item" href="/quiz3">
+                Simulado 3
+              </a>
             </div>
           </div>
         </div>

@@ -55,7 +55,7 @@ export const quizData = [
     option2: "Não é possível realizar testes exaustivos",
     option3: "A repetição dos mesmos testes não encontrará novos defeitos",
     option4: "Defeitos agrupados",
-    ans: 2,
+    ans: 3,
   },
   {
     question:
@@ -64,7 +64,7 @@ export const quizData = [
     option2: "Ela fornece aos desenvolvedores uma lista de bugs",
     option3: "Ela garante que o código seja testado",
     option4: "Ela assegura que os testes sejam suficientes",
-    ans: 4,
+    ans: 2,
   },
   {
     question:
@@ -74,7 +74,7 @@ export const quizData = [
     option2: "Criação de conjuntos de teste a partir de scripts de teste",
     option3: "Análise das lições aprendidas para a melhoria do processo",
     option4: "Avaliação da base de teste de testabilidade",
-    ans: 2,
+    ans: 4,
   },
   {
     question: `Combine os seguintes produtos de trabalho de teste (1-4) com a descrição correta (A-D):
@@ -98,7 +98,7 @@ export const quizData = [
     option2: "1D, 2B, 3A, 4C",
     option3: "1A, 2C, 3D, 4B",
     option4: "1D, 2C, 3B, 4A",
-    ans: 2,
+    ans: 1,
   },
   {
     question:
@@ -110,7 +110,7 @@ export const quizData = [
     option3:
       "Verificar se todos os fluxos do processo de trabalho foram cobertos",
     option4: "Para cobrir todas as navegações da página web",
-    ans: 2,
+    ans: 3,
   },
   {
     question:
@@ -135,7 +135,7 @@ export const quizData = [
       "O objetivo do teste de regressão é detectar efeitos colaterais não intencionais, enquanto o objetivo do teste de confirmação é verificar se o defeito original foi corrigido.",
     option4:
       "O objetivo do teste de regressão é verificar se a nova funcionalidade está funcionando, enquanto o objetivo do teste de confirmação é verificar se o defeito original foi corrigido",
-    ans: 2,
+    ans: 3,
   },
   {
     question:
@@ -147,7 +147,7 @@ export const quizData = [
     option3:
       "Os testes são vistos como uma fase separada que ocorre após a conclusão do desenvolvimento.",
     option4: "Os testes são adicionados ao desenvolvimento como um incremento.",
-    ans: 2,
+    ans: 1,
   },
   {
     question:
@@ -166,7 +166,7 @@ export const quizData = [
     option2: "Autor, Moderador, Gerente, Revisor, Desenvolvedor.",
     option3: "Autor, Gerente, Líder de revisão, Revisor, Designer.",
     option4: "Autor, Moderador, Líder de revisão, Revisor, Redator.",
-    ans: 2,
+    ans: 4,
   },
   {
     question:
@@ -177,7 +177,7 @@ export const quizData = [
       "Definição e verificação do cumprimento dos critérios de entrada para a revisão",
     option4:
       "Avaliação dos resultados da revisão em relação aos critérios de saída",
-    ans: 2,
+    ans: 3,
   },
   {
     question:
@@ -186,7 +186,7 @@ export const quizData = [
     option2: "Revisão Técnica",
     option3: "Inspeção",
     option4: "Passagem",
-    ans: 2,
+    ans: 3,
   },
   {
     question:
@@ -199,7 +199,7 @@ export const quizData = [
       "Os testes estáticos permitem encontrar problemas de tempo de execução no início do ciclo de vida",
     option4:
       "Ao testar um sistema crítico de segurança, os testes estáticos têm menos valor porque os testes dinâmicos encontram melhor os defeitos.",
-    ans: 2,
+    ans: 1,
   },
   {
     question: `Você será convidado para uma revisão. O produto de trabalho a ser revisado é uma descrição do processo de criação de documentos internos. O objetivo da descrição é apresentar a distribuição do trabalho entre os diferentes papéis envolvidos no processo de uma forma que possa ser claramente compreendida por todos.
@@ -227,7 +227,7 @@ export const quizData = [
       "O ponto III da lista de verificação foi violado, pois não está claro o que marca a revisão como concluída.",
     option4:
       "O ponto I da lista de verificação foi violado porque não está claro quem está fornecendo a lista de verificação para o convite para a revisão.",
-    ans: 2,
+    ans: 4,
   },
   {
     question: "O que é teste baseado em checklist?",
@@ -239,7 +239,7 @@ export const quizData = [
       "Uma técnica de teste baseada na experiência em que o testador experiente usa uma lista de itens a serem anotados, verificados ou lembrados, ou um conjunto de regras, ou critérios contra os quais um produto deve ser verificado",
     option4:
       "Uma abordagem aos testes onde os testadores projetam e executam testes dinamicamente baseados em seu conhecimento, exploração do item de teste e nos resultados dos testes anteriores",
-    ans: 2,
+    ans: 3,
   },
 
   // NOVOS ///
@@ -252,7 +252,7 @@ export const quizData = [
     option3:
       "Uma técnica baseada no conhecimento de falhas do passado, ou conhecimento geral de falhas",
     option4: "Uma técnica baseada em requisitos formais",
-    ans: 2,
+    ans: 4,
   },
 
   {
@@ -291,7 +291,7 @@ export const quizData = [
     option3:
       "50% de cobertura de decisão também garante 50% de cobertura de declaração",
     option4: "A cobertura de decisão nunca pode chegar a 100%.",
-    ans: 2,
+    ans: 1,
   },
   {
     question:
@@ -304,7 +304,7 @@ export const quizData = [
       "Quando houver testadores disponíveis que tenham conhecimento suficiente de aplicações e tecnologias similares",
     option4:
       "Quando já existe um conhecimento avançado do sistema, e é necessário fornecer provas de que ele deve ser testado intensivamente",
-    ans: 2,
+    ans: 3,
   },
   {
     question: `O bônus de um funcionário deve ser calculado. Não pode ser negativo, mas pode ser calculado até zero. O bônus é baseado na duração do emprego:
@@ -317,7 +317,7 @@ export const quizData = [
     option2: "5",
     option3: "2",
     option4: "4",
-    ans: 2,
+    ans: 4,
   },
   {
     question: `Um sistema de controle de velocidade e relatórios tem as seguintes características: 
@@ -332,7 +332,7 @@ export const quizData = [
     option2: "50, 55, 60",
     option3: "49, 50, 54, 55, 60, 62",
     option4: "50, 51, 55, 56, 60, 61",
-    ans: 2,
+    ans: 4,
   },
   {
     question: `Os funcionários de uma empresa recebem bônus se trabalharem mais de um ano na empresa e atingirem uma meta que tenha sido acordada individualmente antes. Estes fatos podem ser mostrados em uma tabela de decisão:
@@ -348,7 +348,7 @@ export const quizData = [
     option2: "Condição 1 = SIM, Condição 2 = SIM, Condição 3 = NÃO, Ação = SIM",
     option3: "Condição 1 = NÃO, Condição 2 = NÃO, Condição 3 = SIM, Ação = NÃO",
     option4: "Condição 1 = NÃO, Condição 2 = SIM, Condição 3 = NÃO, Ação = NÃO",
-    ans: 2,
+    ans: 4,
   },
   {
     question: `Uma aplicação de vídeo tem a seguinte exigência: O aplicativo deve permitir a reprodução de um vídeo na seguinte resolução de tela: 
@@ -367,7 +367,7 @@ export const quizData = [
       "Verificar se a aplicação pode reproduzir um vídeo em cada um dos tamanhos de exibição na exigência (4 casos de teste)",
     option4:
       "Verificar se a aplicação pode reproduzir um vídeo em qualquer um dos tamanhos de tela na exigência (1 caso de teste)",
-    ans: 2,
+    ans: 3,
   },
 
   {
@@ -390,7 +390,7 @@ export const quizData = [
     option2: "Número médio de testadores envolvidos na execução do teste.",
     option3: "Cobertura dos requisitos pelo código fonte.",
     option4: "Porcentagem de casos de teste já criados e revisados.",
-    ans: 2,
+    ans: 1,
   },
 
   {
@@ -400,7 +400,7 @@ export const quizData = [
     option2: "Diário de testes",
     option3: "Taxa de falha",
     option4: "Casos de uso",
-    ans: 2,
+    ans: 1,
   },
   {
     question:
@@ -413,7 +413,7 @@ export const quizData = [
       "Medidas de confiabilidade, cobertura de teste, custo do teste, disponibilidade do ambiente de teste, tempo de colocação no mercado e completude do produto",
     option4:
       "Tempo para comercialização, defeitos restantes, qualificação do testador, disponibilidade de casos de uso testável, cobertura de teste e custo do teste",
-    ans: 2,
+    ans: 1,
   },
   {
     question:
@@ -423,7 +423,7 @@ export const quizData = [
     option2: "Desvios da abordagem de teste",
     option3: "Medições do progresso real em relação aos critérios de saída",
     option4: "Avaliação da qualidade do objeto de teste",
-    ans: 2,
+    ans: 1,
   },
   {
     question: `O projeto desenvolve um termostato de aquecimento "inteligente". Os algoritmos de controle do termostato foram modelados como modelos Matlab/Simulink e executados no servidor conectado à Internet. O termostato usa as especificações do servidor para acionar as válvulas de aquecimento. O gerente de teste definiu a seguinte estratégia/abordagem de teste no plano de teste:
@@ -454,7 +454,7 @@ export const quizData = [
     option3:
       "Estimativa de esforço para automação de testes acordada na equipe de teste.",
     option4: "Mediana dos cálculos coletados de especialistas empresariais.",
-    ans: 2,
+    ans: 1,
   },
   {
     question: `Você está testando uma nova versão de software para uma máquina de café. A máquina pode preparar diferentes tipos de café com base em quatro categorias, ou seja, tamanho do café, açúcar, leite e xarope. Os critérios são os seguintes:
@@ -482,7 +482,7 @@ export const quizData = [
     option2: "É fácil manter o controle de versão dos ativos de teste.",
     option3: "É fácil projetar testes para testes de segurança.",
     option4: "É fácil executar testes de regressão.",
-    ans: 2,
+    ans: 4,
   },
   {
     question:
@@ -491,6 +491,6 @@ export const quizData = [
     option2: "Ferramentas de gerenciamento da configuração.",
     option3: " Ferramentas de gerenciamento de defeitos.",
     option4: "Ferramentas de teste de desempenho.",
-    ans: 2,
+    ans: 3,
   },
 ];

@@ -3,7 +3,7 @@
 import React from "react";
 import { quizData2 } from "../../../assets/data2";
 import QuizProps from "./QuizProps";
-import Layout from "./../Layout";
+import Layout from "../Layout";
 function Quiz2() {
   return (
     <Layout>

@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Quiz from "./quiz/quiz";
 import Navbar from "./menu/navbar";
 {
   /* pode receber valores externos :) */
