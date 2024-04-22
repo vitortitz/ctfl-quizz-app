@@ -104,7 +104,7 @@ function QuizProps(props) {
   return (
     <Layout>
       <div className="container">
-        <h1> Quiz CTFL</h1>
+        <h1 className="title"> Quiz CTFL</h1>
         <hr />
         {result ? (
           <>
@@ -116,7 +116,7 @@ function QuizProps(props) {
           </>
         ) : (
           <>
-            <h1>
+            <h1 className="question">
               {index + 1}. {question.question}
             </h1>
             {/* Opcoes linkadas as respostas :) */}
