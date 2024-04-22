@@ -1,108 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
-@media screen and (prefers-color-scheme: light) {
-  .container {
-    width: 85%;
-    margin: auto;
-    background: white;
-    color: #262626;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 10px;
-    padding: 10px 30px 0px;
-  }
-
-  .container hr {
-    height: 2px;
-    border: none;
-    background: #707070;
-  }
-
-  .container h5 {
-    font-size: 10px;
-    font-weight: 100;
-    white-space: pre-line;
-  }
-
-  .container ul li {
-    display: flex;
-    align-items: center;
-    height: 20%;
-    padding-left: 15px;
-    border: 1px solid #686868;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: "Oswald";
-    padding: 5px 5px 5px 5px;
-  }
-
-  .container .points {
-    margin: auto;
-    font-size: 18px;
-  }
-
-  .container .correct {
-    background: #dffff2;
-    border-color: #00d397;
-  }
-  .container .wrong {
-    background: #ffebeb;
-    border-color: #ff4a4a;
-  }
-
-  .container .buttonDiv {
-    margin: auto;
-  }
-
-  @media screen and (max-width: 763px) {
+@media (prefers-color-scheme: dark) {
+  :root {
     .container {
-      width: auto;
-      height: auto;
-      background: white;
-      color: #262626;
+      width: 85%;
+      margin: auto;
+      background: #262626;
+      color: white;
       display: flex;
       flex-direction: column;
-      gap: 0px;
+      gap: 10px;
       border-radius: 10px;
-      padding: 10px 5px 5px 10px;
+      padding: 10px 30px 0px;
     }
 
     .container hr {
-      height: 1px;
+      height: 2px;
       border: none;
-      background: #707070;
+      background: white;
     }
 
     .container h5 {
-      font-size: 8px;
+      font-size: 10px;
       font-weight: 100;
       white-space: pre-line;
-    }
-    .container .title {
-      font-size: 30px;
-      text-align: center;
-      font-weight: 400;
-      color: #262626;
-    }
-    .container .question {
-      font-size: 20px;
-      text-align: center;
-      font-weight: 400;
-      color: #262626;
     }
 
     .container ul li {
       display: flex;
-      align-items: start;
+      align-items: center;
       height: 20%;
       padding-left: 15px;
-      border: 1px solid #686868;
+      border: 1px solid white;
       border-radius: 8px;
       margin-bottom: 20px;
-      font-size: 15px;
+      font-size: 20px;
       cursor: pointer;
       font-family: "Oswald";
       padding: 5px 5px 5px 5px;
@@ -124,43 +56,181 @@
 
     .container .buttonDiv {
       margin: auto;
+    }
+
+    @media screen and (max-width: 763px) {
+      .container {
+        width: auto;
+        height: auto;
+        background: white;
+        color: #262626;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 10px;
+        padding: 10px 5px 5px 10px;
+      }
+
+      .container hr {
+        height: 1px;
+        border: none;
+        background: white;
+      }
+
+      .container h5 {
+        font-size: 8px;
+        font-weight: 100;
+        white-space: pre-line;
+      }
+      .container .title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        color: white;
+      }
+      .container .question {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+        color: #262626;
+      }
+
+      .container ul li {
+        display: flex;
+        align-items: start;
+        height: 20%;
+        padding-left: 15px;
+        border: 1px solid white;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Oswald";
+        padding: 5px 5px 5px 5px;
+      }
+
+      .container .points {
+        margin: auto;
+        font-size: 18px;
+      }
+
+      .container .correct {
+        background: #dffff2;
+        border-color: #00d397;
+      }
+      .container .wrong {
+        background: #ffebeb;
+        border-color: #ff4a4a;
+      }
+
+      .container .buttonDiv {
+        margin: auto;
+      }
     }
   }
 }
-@media (prefers-color-scheme: light) {
+.container {
+  width: 85%;
+  margin: auto;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px 30px 0px;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.container h5 {
+  font-size: 10px;
+  font-weight: 100;
+  white-space: pre-line;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Oswald";
+  padding: 5px 5px 5px 5px;
+}
+
+.container .points {
+  margin: auto;
+  font-size: 18px;
+}
+
+.container .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+.container .wrong {
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+.container .buttonDiv {
+  margin: auto;
+}
+
+@media screen and (max-width: 763px) {
   .container {
-    width: 85%;
-    margin: auto;
+    width: auto;
+    height: auto;
     background: white;
     color: #262626;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     border-radius: 10px;
-    padding: 10px 30px 0px;
+    padding: 10px 5px 5px 10px;
   }
 
   .container hr {
-    height: 2px;
+    height: 1px;
     border: none;
     background: #707070;
   }
 
   .container h5 {
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 100;
     white-space: pre-line;
+  }
+  .container .title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #262626;
+  }
+  .container .question {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #262626;
   }
 
   .container ul li {
     display: flex;
-    align-items: center;
+    align-items: start;
     height: 20%;
     padding-left: 15px;
     border: 1px solid #686868;
     border-radius: 8px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     font-family: "Oswald";
     padding: 5px 5px 5px 5px;
@@ -182,75 +252,5 @@
 
   .container .buttonDiv {
     margin: auto;
-  }
-
-  @media screen and (max-width: 763px) {
-    .container {
-      width: auto;
-      height: auto;
-      background: white;
-      color: #262626;
-      display: flex;
-      flex-direction: column;
-      gap: 0px;
-      border-radius: 10px;
-      padding: 10px 5px 5px 10px;
-    }
-
-    .container hr {
-      height: 1px;
-      border: none;
-      background: #707070;
-    }
-
-    .container h5 {
-      font-size: 8px;
-      font-weight: 100;
-      white-space: pre-line;
-    }
-    .container .title {
-      font-size: 30px;
-      text-align: center;
-      font-weight: 400;
-      color: #262626;
-    }
-    .container .question {
-      font-size: 20px;
-      text-align: center;
-      font-weight: 400;
-      color: #262626;
-    }
-
-    .container ul li {
-      display: flex;
-      align-items: start;
-      height: 20%;
-      padding-left: 15px;
-      border: 1px solid #686868;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      font-size: 15px;
-      cursor: pointer;
-      font-family: "Oswald";
-      padding: 5px 5px 5px 5px;
-    }
-
-    .container .points {
-      margin: auto;
-      font-size: 18px;
-    }
-
-    .container .correct {
-      background: #dffff2;
-      border-color: #00d397;
-    }
-    .container .wrong {
-      background: #ffebeb;
-      border-color: #ff4a4a;
-    }
-
-    .container .buttonDiv {
-      margin: auto;
-    }
   }
 }
