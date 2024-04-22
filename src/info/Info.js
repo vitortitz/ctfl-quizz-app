@@ -16,7 +16,7 @@ export const info = {
     miniBio: [
         {
             emoji: '☕',
-            text: 'Movido à café'
+            text: 'Movido a café'
         },
         {
             emoji: '🌎',
