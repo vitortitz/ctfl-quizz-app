@@ -49,7 +49,11 @@ const Home = () => {
             <span className={Style.hand}>🤚</span>
           </h1>
           <h2>Sou {info.position}.</h2>
-          <h3>
+          <h3
+            style={{
+              textAlign: "center",
+            }}
+          >
             Esse site foi criado com o intuito de realizar simulados para que
             possa se preparar para concluir a prova e receber o certificado
             CTFL, todas as perguntas foram retiradas dos PDFs oficial forneceido

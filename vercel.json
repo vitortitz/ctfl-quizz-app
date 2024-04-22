@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/quiz1",
+      "dest": "/"
+    },
+    {
+      "src": "/quiz2",
+      "dest": "/"
+    },
+    {
+      "src": "/quiz3",
+      "dest": "/"
+    }
+  ]
+}

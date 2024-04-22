@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a
           role="button"
-          className="navbar-burger"
+          className={`navbar-burger ${isOpen ? "is-active" : ""}`}
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          onClick={toggleMenu}
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -18,7 +25,10 @@ const navbar = () => {
         </a>
       </div>
 
-      <div id="navbarBasicExample" className="navbar-menu">
+      <div
+        id="navbarBasicExample"
+        className={`navbar-menu ${isOpen ? "is-active" : ""}`}
+      >
         <div className="navbar-start">
           <a className="navbar-item" href="/">
             Início

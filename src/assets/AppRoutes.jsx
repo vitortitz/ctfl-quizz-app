@@ -10,8 +10,8 @@ const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/quiz1" element={<Quiz1 />} />
+        <Route path="/" element={<Home />} />
         <Route path="/quiz2" element={<Quiz2 />} />
         <Route path="/quiz3" element={<Quiz3 />} />
         <Route path="*" element={<h1>Not Found</h1>} />
