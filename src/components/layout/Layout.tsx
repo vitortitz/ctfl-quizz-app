@@ -19,8 +19,8 @@ const Layout = (props: LayoutProps) => {
           <div className="card-header is-flex-mobile">
             <Navbar />
           </div>
-          <div className="card-content is-flex-mobile">
-            <div className="content is-flex-mobile">{props.children}</div>
+          <div className="card-content ">
+            <div className="content ">{props.children}</div>
           </div>
         </div>
       </div>
