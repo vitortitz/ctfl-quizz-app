@@ -157,7 +157,7 @@ export const quizData = [
       "Decisão de testar o sistema após a migração para uma nova plataforma operacional",
     option3:
       "Decisão de testar se os dados arquivados são possíveis de serem recuperados",
-    option4: "1990",
+    option4: 'Decisão de testar após "hot fixes"',
     ans: 1,
   },
   {

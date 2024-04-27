@@ -5,6 +5,7 @@ import Layout from "../Layout";
 import "./quiz.css";
 function QuizProps(props) {
   // acessa o props
+
   const { quizData } = props;
   let [index, setIndex] = useState(0);
   let [question, setQuestion] = useState(quizData[index]);

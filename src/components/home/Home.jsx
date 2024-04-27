@@ -71,7 +71,7 @@ const Home = () => {
                 <i className="fa fa-book" aria-hidden="true"></i>
               </span>
               <span>
-                <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_4.0_sample_A[v1br].pdf">
+                <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_2018_sample_A[v1.6br].pdf">
                   {" "}
                   Prova 1
                 </a>
