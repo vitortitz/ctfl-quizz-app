@@ -5,7 +5,7 @@
     .container {
       width: 85%;
       margin: auto;
-      background: #262626;
+      background: #14161a;
       color: white;
       display: flex;
       flex-direction: column;
@@ -47,14 +47,14 @@
     }
 
     .container .correct {
-      background: black;
+      background: #dffff2;
       border-color: #00d397;
-      color: #00d397;
+      color: #14161a;
     }
     .container .wrong {
-      background: black;
+      background: #ffebeb;
       border-color: #ff4a4a;
-      color: #ff4a4a;
+      color: #14161a;
     }
 
     .container .buttonDiv {
@@ -119,10 +119,12 @@
       .container .correct {
         background: #dffff2;
         border-color: #00d397;
+        color: #14161a;
       }
       .container .wrong {
         background: #ffebeb;
         border-color: #ff4a4a;
+        color: #14161a;
       }
 
       .container .buttonDiv {

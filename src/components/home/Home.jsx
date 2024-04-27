@@ -59,50 +59,48 @@ const Home = () => {
             CTFL, todas as perguntas foram retiradas dos PDFs oficial forneceido
             pela BSTQB
           </h3>
-          <div className="container align-self-center" id="container-home">
-            <div className="border border-dark" id="div-home">
-              <Box
-                display={"flex"}
-                gap={"1.5rem"}
-                justifyContent={"center"}
-                fontSize={{ xs: "1rem", md: "1.5rem" }}
-              >
-                <span className="icon-text has-text-info">
-                  <span className="icon">
-                    <i className="fa fa-book" aria-hidden="true"></i>
-                  </span>
-                  <span>
-                    <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_4.0_sample_A[v1br].pdf">
-                      {" "}
-                      Prova 1
-                    </a>
-                  </span>
-                </span>
-                <span className="icon-text has-text-info">
-                  <span className="icon">
-                    <i className="fa fa-book" aria-hidden="true"></i>
-                  </span>
-                  <span>
-                    <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_2018_sample_B[v1.3br].pdf">
-                      {" "}
-                      Prova 2
-                    </a>
-                  </span>
-                </span>
-                <span className="icon-text has-text-info">
-                  <span className="icon">
-                    <i className="fa fa-book" aria-hidden="true"></i>
-                  </span>
-                  <span>
-                    <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_2018_sample_C[v1.2br].pdf">
-                      {" "}
-                      Prova 3
-                    </a>
-                  </span>
-                </span>
-              </Box>
-            </div>
-          </div>
+
+          <Box
+            component={"main"}
+            display={"flex"}
+            alignItems={"center"}
+            justifyContent={"center"}
+          >
+            <span className="icon-text has-text-info">
+              <span className="icon">
+                <i className="fa fa-book" aria-hidden="true"></i>
+              </span>
+              <span>
+                <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_4.0_sample_A[v1br].pdf">
+                  {" "}
+                  Prova 1
+                </a>
+              </span>
+            </span>
+            <span className="icon-text has-text-info">
+              <span className="icon">
+                <i className="fa fa-book" aria-hidden="true"></i>
+              </span>
+              <span>
+                <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_2018_sample_B[v1.3br].pdf">
+                  {" "}
+                  Prova 2
+                </a>
+              </span>
+            </span>
+            <span className="icon-text has-text-info">
+              <span className="icon">
+                <i className="fa fa-book" aria-hidden="true"></i>
+              </span>
+              <span>
+                <a href="https://bcr.bstqb.org.br/docs/exam_ctfl_2018_sample_C[v1.2br].pdf">
+                  {" "}
+                  Prova 3
+                </a>
+              </span>
+            </span>
+          </Box>
+
           <Box component={"ul"} p={"0.8rem"}>
             {info.miniBio.map((bio, index) => (
               <Box
