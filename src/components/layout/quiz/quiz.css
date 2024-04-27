@@ -64,7 +64,7 @@
     @media screen and (max-width: 763px) {
       .container {
         width: auto;
-        background: black;
+        background: #14161a;
         color: white;
         display: flex;
         flex-direction: column;
